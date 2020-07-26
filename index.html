@@ -3,68 +3,184 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>Minha página</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        
+        <title>Diego Sofiati</title>
     </head>
 
     <body>
 
-        <nav>
-            <ul>
-                <li><a href="#quem_sou_eu">Quem sou eu</a></li>
-                <li><a href="#formacao_academica">Formação Acadêmica</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#cursos">Cursos e Certificações</a></li>
-                <li><a href="#experiencias">Experiências</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse justify-content-md-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#meu_perfil">Meu perfil</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#formacao_academica">Formação Acadêmica</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#cursos">Cursos e Certificações</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#idiomas">Idiomas</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#experiencias">Experiências</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
-        <header>
+        <header class="text-center">
             <h1>Diego Sofiati</h1>
             <h3>Curriculum vitæ</h3>
         </header>
 
-        <section id="quem_sou_eu">
-            <h2>Quem sou eu?</h2>
-            <p>
-                Sou dedicado em cumprir tarefas na intenção de conciliar
-                o desejo do cliente com os interesses da empresa. Seja em trabalho formal ou informal,
-                eu acabo criando soluções que melhoram a execução ou o ambiente de trabalho.
-            </p>
+        <section id="meu_perfil">
+            <div class="container-fluid text-center cinza-claro espac-antes espac-depois">
+                <h2>Meu perfil</h2>
+                <p class="p1">
+                    Sou dedicado em cumprir tarefas na intenção de conciliar 
+                    o desejo do cliente com os interesses da empresa. Seja em trabalho formal ou informal, 
+                    eu acabo criando soluções que melhoram a execução ou o ambiente de trabalho.
+                </p>
+            </div>
         </section>
 
         <section id="formacao_academica">
-            <h2>Formação Acadêmica</h2>
-        </section>
+            <div class="container-fluid cinza-gelo espac-antes espac-depois">
+                <h2 class="text-center">Formação Acadêmica</h2>
+                <p class="p1">
+                    <b>Técnico em Informática</b>. Escola Contec <br>
+                    Vila Velha – ES. Concluído em 2013/2. <br>
+                    Descrição: Conhecimentos de usuário do sistema Windows e o
+                    básico do pacote office (Word, Excel, Power point).
+                    Noções de HTML, CSS, JavaScript.
+                </p>
 
-        <section id="habilidades">
-            <h2>Habilidades</h2>
+                <p class="p1">
+                   <b>Bacharel em Filosofia</b>. Universidade Federal do Espírito Santo (UFES) <br>
+                    Vitória – ES. Concluído em 2019/2. <br>
+                    Descrição: Além dos conhecimentos gerais de cada área da filosofia,
+                    tenho conhecimento mais aprofundado em filosofia da ciência.
+                </p>
+            </div>
         </section>
 
         <section id="cursos">
-            <h2>Cursos e Certificações</h2>
+            <div class="container-fluid cinza-escuro espac-antes espac-depois">
+                <h2 class="text-center">Cursos e Certificações</h2>
+                <p class="p1">
+                    <b>Projetos ágeis com SCRUM</b>. Digital Innovation One Inc. <br>
+                    Emitido em junho de 2020. Nº da credencial 7E5E6A6C.
+                </p>
+                <p class="p1">
+                    <b>Exame de Proficiência em Leitura de Língua Estrangeira (Inglês)</b>. Núcleo de Línguas <br>
+                    (NL/CCHN/UFES). Nota: 7,5 de 10. Valido até 2021.
+                </p>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <div class="container-fluid text-center cinza-gelo espac-antes espac-depois">
+                <h2>Habilidades</h2>
+                <p>
+                    Abstração <br>
+                    Pensamento sistêmico <br>
+                    Resiliência <br>
+                    Trabalho em equipe <br>
+                    Soluções de problemas <br>
+                </p>
+            </div>
+        </section>
+
+        <section id="idiomas">
+            <div class="container-fluid text-center cinza-claro espac-antes espac-depois">
+                <h2>Idiomas</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/brasil.png" class="band-pais">
+                            <p>Português: Nativo</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/eua.png" class="band-pais">
+                            <p>Inglês: A2</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/espanha.png" class="band-pais">
+                            <p>Espanhol: A2</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/japao.png" class="band-pais">
+                            <p>Japonês: iniciante</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="experiencias">
-            <h2>Experiências</h2>
+            <div class="container-fluid cinza-gelo espac-antes espac-depois">
+                <h2 class="text-center">Experiências</h2>
+                <p class="p1">
+                    <b>Estagiário</b>. HS Formação Profissional <br>
+                    14/12/12 – 29/06/2013 <br>
+                    Descrição: Desenvolvimento da profissão monitor de informática, 
+                    auxiliando os monitores dentro de sala de aula.
+                </p>
+                <p class="p1">
+                    <b>Monitor de Informática</b>. HS Formação Profissional <br>
+                    01/07/2013 – 29/07/2014 <br>
+                    Descrição: Auxiliei na aprendizagem do conteúdo referente as aulas
+                    interativas dos alunos. Lecionei aulas de reforço. Fazia atendimento aos
+                    responsáveis dos alunos sobre o desenvolvimento educacional. Fui delegado como
+                    Líder noturno para organizar uma equipe de trabalho de quatro pessoas. Eu também
+                    era responsável por conferir o estoque de material escolar e de escritório. Além dos deveres
+                    citados eu fechava a unidade todas as noites e abria aos sábados de manhã quando necessário.
+                </p>
+                <p class="p1">
+                    <b>Aluno Pesquisador</b>. Universidade Federal do Espírito Santo <br>
+                    Agosto de 2016 – Julho de 2017 <br>
+                    Descrição: Fui estudante vinculado ao programa Institucional de Iniciação
+                    Científica da UFES no período que se iniciou em 01/08/2016 e se estendeu até 31/07/2017
+                    (com carga horária de 20 horas semanais), desenvolvendo o subprojeto de pesquisa
+                    intitulado "Ciência e Modernidade", sob a orientação do Prof. Maurício Abdalla Guerrieri.
+                </p>
+            </div>
         </section>
 
         <section id="contatos">
-            <h2>Contatos</h2>
-            <div>
-                <img src="img/img email.png" width="30px">
-                <p><a href="mailto:itaifos@gmail.com">itaifos@gmail.com</a></p>
-            </div>
-            <div>
-                <img src="img/img fone.png" width="30px">
-                <p><a href="tel:5527998908212">55 27 99890-8212</a></p>
+            <div class="container-fluid text-center cinza-escuro espac-antes espac-depois">
+                <h2>Contatos</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/img email.png" width="30px">
+                            <p><a href="mailto:itaifos@gmail.com">itaifos@gmail.com</a></p>
+                        </div>
+                        <div class="col">
+                            <img src="img/img fone.png" width="30px">
+                            <p><a href="tel:5527998908212">55 27 99890-8212</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         
         <footer>
             <p>Desenvolvido por Diego Sofiati</p>
         </footer>
+
     </body>
 
 </html>
