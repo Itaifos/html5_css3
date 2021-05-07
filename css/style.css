@@ -1,11 +1,11 @@
-header {
+.header {
     background-color: #1d4e89;
     color: whitesmoke;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-footer {
+.footer {
     background-color: black;
     color: whitesmoke;
     padding-top: 30px;
@@ -13,6 +13,7 @@ footer {
     text-align: center;
 }
 
+/* modificar tudo aqui */
 .p1 {
     padding-left: 550px;
     padding-right: 550px;
